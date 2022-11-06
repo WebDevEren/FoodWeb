@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizimle Çalışmak İster Misiniz?</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        header h1 {
+            color: red;
+        }
+
+        #foot a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        #foot a:hover {
+            background-color: rgb(94, 89, 89);
+            border-radius: 10px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lütfen Formu Eksiksiz Doldurun</h1>
+    </header>
+    <hr>
+    <form action="content.php">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="name">Adınız: </label>
+                    </td>
+                    <td width="150">
+                    </td>
+                    <td>
+                        <input type="text" name="name" placeholder="Adınızı Girin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="surname">Soyadınız: </label>
+                    </td>
+                    <td width="150"></td>
+                    <td>
+                        <input type="text" name="surname" placeholder="Soyadınızı Girin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-Mail: </label>
+                    </td>
+                    <td width="150"></td>
+                    <td>
+                        <input type="email" name="email" placeholder="Emailinizi Girin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Şifre: </label>
+                    </td>
+                    <td width="150"></td>
+                    <td>
+                        <input type="password" name="password" placeholder="Şifrenizi Girin">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="cinsiyet">Cinsiyet: </label>
+                    </td>
+                    <td width="100"></td>
+                    <td>
+                        Erkek<input type="radio" name="female">
+                        Kadın<input type="radio" name="female">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tanıtım">Kendinizi Tanıtın: </label>
+                    </td>
+                    <td></td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Kendinizi Tanıtın"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="learn">Bildiğiniz Diller: </label>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox">Python
+                        <input type="checkbox">Javascript
+                        <input type="checkbox">Php
+                        <input type="checkbox">Java
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tecrube">Tecrübe Yılınız: </label>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="number" min="2" max="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align:right ;">
+                        <input type="submit">
+                        <input type="Reset">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <footer id="foot">
+        <a href="index.html">Anasayfa</a>
+    </footer>
+</body>
+
+</html>
