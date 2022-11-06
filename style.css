@@ -1,0 +1,20 @@
+#main-header {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(245, 67, 2);
+  height: 60px;
+}
+#right-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 54px);
+}
+#right-nav a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: rgb(189, 185, 180);
+}
+#right-nav a:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
